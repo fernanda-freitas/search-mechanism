@@ -1,0 +1,84 @@
+body {
+  background-color: #181A20;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.welcome-section{
+  margin-top: 12rem;
+}
+
+.search-welcome{
+  font-weight: 700;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+.search-welcome-text{
+  color: #d3d6de;
+  max-width: 370px;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+#search-form {
+  max-width: 400px;
+  margin-top: 1.5rem;
+}
+
+.form-control {
+  background-color: #242730;
+  color: #fff;
+  border: 0px;
+  border-radius: 50px;
+  height: 48px;
+  padding: .3rem 2.5rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #E21221;
+  border-radius: 50px;
+  color: #fff;
+  border: 0px;
+  width: 100%;
+  font-size: .875rem;
+  height: 48px;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #f62432;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  background-color: #E21221;
+}
+
+.btn-primary:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.results-section {
+  margin-top: 4rem;
+  width: 100%;
+  overflow: auto;
+}
+
+.list-item {
+  margin-right: .5rem;
+}
+
+.movie-poster {
+  height: 444px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.movie-title {
+  color: #6a6d76;
+}
