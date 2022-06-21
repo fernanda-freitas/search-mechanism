@@ -5,7 +5,7 @@ const submitButton = document.querySelector(".btn-primary");
 const results = document.getElementById("results");
 
 const searchMovies = (query) => {
-  fetch(`http://www.omdbapi.com/?s=${query}&apikey=48727053`)
+  fetch(`https://www.omdbapi.com/?s=${query}&apikey=48727053`)
   .then(response => response.json())
   .then((data) => {
     data.Search.forEach((result) => {
